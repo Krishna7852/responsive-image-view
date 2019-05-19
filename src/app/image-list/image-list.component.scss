@@ -1,0 +1,34 @@
+:host {
+  .has-list {
+    ul {
+      list-style: none;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      figure {
+        position: relative;
+        figcaption {
+          width: 100%;
+          position: absolute;
+          bottom: 4px;
+          padding: 5px 0;
+          color: #fff;
+          background-color: rgba(0, 0, 0, .35);
+          label {
+            padding-left: 5px;
+          }
+        }
+        margin: 5px;
+        img {
+          min-width: 180px;
+          min-height: 240px;
+          max-width: 280px;
+          max-height: 350px;
+          width: 18vw;
+          height: 26vw;
+        }
+      }
+
+    }
+  }
+}

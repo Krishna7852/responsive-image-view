@@ -1,0 +1,12 @@
+<div class="has-list">
+  <ul>
+    <li *ngFor="let image of images">
+      <figure>
+        <img [src]="image.thumbImage" alt="{{image.title}}">
+        <figcaption>
+          <label>{{image.title}}</label>
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+</div>

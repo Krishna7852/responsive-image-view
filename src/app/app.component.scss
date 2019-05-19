@@ -1,0 +1,20 @@
+:host::ng-deep {
+  .container {
+    &-header-section {
+      display: flex;
+      justify-content: space-between;
+      .title {
+        font-weight: 400;
+      }
+      button {
+        background-color: transparent;
+        border: transparent;
+        outline: none;
+        &:hover {
+          cursor: pointer;
+          color: blue;
+        }
+      }
+    }
+  }
+}
